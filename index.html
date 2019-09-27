@@ -147,7 +147,13 @@
         endMonth: M,
         endDay: D,
         format: "-"
-    })
+    });
+
+    $(document.body).on('click', '#dateSure', function () {
+        let val = $('#inputOne').val();
+        console.log('time: ' + val)
+    });
+
 </script>
 
 </html>
